@@ -1,14 +1,14 @@
-body {
+
+        body {
             margin: 0;
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
-           background: linear-gradient(135deg,#e0f7fa,#39495a);
+            background: linear-gradient(135deg,#e0f7fa,#39495a);
         }
-
-        .card {
+         .card {
             width: 420px;
             padding: 25px;
             border-radius: 15px;
@@ -18,53 +18,20 @@ body {
             box-shadow: 0 8px 32px rgba(0,0,0,0.3);
             color: #110f0f;
         }
-
-        h1 {
+        h5{
             text-align: center;
             margin-bottom: 10px;
         }
-         h5 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        p {
-            text-align: center;
-            font-size: 14px;
-        }
-        
-        button {
-            width: 20%;
-            padding: 10px;
-            margin-top: 15px;
-            border: none;
-            border-radius: 8px;
-            background: #3f576e;
-            color: #020202;
-            font-size: 16px;
-            cursor: pointer;
-            font-weight: bold;
-            gap: 50px;
-           
-        }
-        .friend-img {
+        .thankyou-img {
             display: block;
             margin: 15px auto;
-            width: 100px;
+            width: 200px;
         }
-        
-        .btn-group{
-            display: flex;
-            gap: 30px;
-            justify-content: center;
+        .signature{
+            position: absolute;
+            bottom: 0px;
+            right: 25px;
+            font-size: 15px;
+            opacity: 0.8;
         }
-        #no{
-            transition: transform 0.2s;
-
-        }
-        #no:hover {
-           transform: translate(120px);
-        }
-        .yes-btn{
-            position: static;
-        }
+    
